@@ -1,0 +1,1261 @@
+{
+    "customBlocks": [
+        {
+            "category": "Command Processor", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "StController", 
+                    "parameters": [
+                        {
+                            "default": "USBTX", 
+                            "type": "raw", 
+                            "name": "pinTX", 
+                            "value": "USBTX", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "USBRX", 
+                            "type": "raw", 
+                            "name": "pinRX", 
+                            "value": "USBRX", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 4, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2, 
+                            3, 
+                            4, 
+                            5
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_stcontroller", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Function", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "Toggle", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_toggle", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "capture", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_capture", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "Shift", 
+                    "parameters": [
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Direction", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Bits", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "PseudoRandom", 
+                    "parameters": [
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "range1", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "range2", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "Compare", 
+                    "parameters": [
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Compare value", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "DelayBuffer", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_delaybuffer", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "AND", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "OR", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "NOT", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_not", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "FlipFlop", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_flipflop", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Output", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "GPOUT", 
+                    "parameters": [
+                        {
+                            "default": "PullNone", 
+                            "type": "option", 
+                            "name": "modeString", 
+                            "value": "PullNone", 
+                            "options": [
+                                "PullUp\r", 
+                                "PullDown\r", 
+                                "PullNone\r", 
+                                "OpenDrain\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 1, 
+                            "type": "bool", 
+                            "name": "Preset", 
+                            "value": 1, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            0
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_gpout", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "PWM", 
+                    "parameters": [
+                        {
+                            "default": "LED3", 
+                            "type": "raw", 
+                            "name": "Pin", 
+                            "value": "LED3", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            0
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_pwm", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "GPO", 
+                    "parameters": [
+                        {
+                            "default": "P1_18", 
+                            "type": "raw", 
+                            "name": "Pin", 
+                            "value": "P1_18", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_gpo", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "String", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "StringFormat", 
+                    "parameters": [
+                        {
+                            "default": "Value: %d\\n", 
+                            "type": "string", 
+                            "name": "Format", 
+                            "value": "Value: %d\\n", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_stringformat", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "StringPack", 
+                    "parameters": [
+                        {
+                            "default": "Value: %d\\n", 
+                            "type": "string", 
+                            "name": "Format string", 
+                            "value": "Value: %d\\n"
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_stringpack", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Hardware", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "StringSerial", 
+                    "parameters": [
+                        {
+                            "default": "USBTX", 
+                            "type": "raw", 
+                            "name": "Tx", 
+                            "value": "USBTX", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "USBRX", 
+                            "type": "raw", 
+                            "name": "Rx", 
+                            "value": "USBRX", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_stringserial", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "Generator", 
+                    "parameters": [
+                        {
+                            "default": "96000000", 
+                            "type": "option", 
+                            "name": "THECLOCK", 
+                            "value": "96000000", 
+                            "options": [
+                                "96000000\r", 
+                                "100000000\r", 
+                                "120000000\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "1000", 
+                            "type": "raw", 
+                            "name": "freq", 
+                            "value": "1000", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1, 
+                            2
+                        ], 
+                        "outputs": [
+                            3
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_generator", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "ws2812", 
+                    "parameters": [
+                        {
+                            "default": "MOSI", 
+                            "type": "raw", 
+                            "name": "pinName", 
+                            "value": "MOSI", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_ws2812", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "PCF85063A", 
+                    "parameters": [
+                        {
+                            "default": "P0.10", 
+                            "type": "raw", 
+                            "name": "SDA", 
+                            "value": "P0.10", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "P0.11", 
+                            "type": "raw", 
+                            "name": "SCL", 
+                            "value": "P0.11", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_pcf85063a", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 4, 
+                    "name": "neopixel", 
+                    "parameters": [
+                        {
+                            "default": "P0_18", 
+                            "type": "raw", 
+                            "name": "MOSI", 
+                            "value": "P0_18", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_neopixel", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 3, 
+                    "name": "Eeprom", 
+                    "parameters": [
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "MOSI", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "MISO", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "SCLK", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "CS", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "0x00", 
+                            "type": "raw", 
+                            "name": "Address", 
+                            "value": "0x00", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nbslocks_eeprom", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "SimpleSerial", 
+                    "parameters": [
+                        {
+                            "default": "P2_0", 
+                            "type": "raw", 
+                            "name": "Pin TX", 
+                            "value": "P2_0", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "P2_1", 
+                            "type": "raw", 
+                            "name": "Pin RX", 
+                            "value": "P2_1", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_simpleserial", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Configuration", 
+            "blocks": [
+                {
+                    "inputs": 0, 
+                    "name": "Blink", 
+                    "parameters": [
+                        {
+                            "default": 1000, 
+                            "type": "int", 
+                            "name": "Period_ms", 
+                            "value": 1000, 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "P1_18", 
+                            "type": "raw", 
+                            "name": "outPin", 
+                            "value": "P1_18", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_blink", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Sensor", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "LM75", 
+                    "parameters": [
+                        {
+                            "default": "p28", 
+                            "type": "raw", 
+                            "name": "SDA Pin", 
+                            "value": "p28", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "p27", 
+                            "type": "raw", 
+                            "name": "SCL Pin", 
+                            "value": "p27", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "0x90", 
+                            "type": "option", 
+                            "name": "I2C Address", 
+                            "value": "0x90", 
+                            "options": [
+                                "0x90\r", 
+                                "0x92\r", 
+                                "0x94\r", 
+                                "0x96\r", 
+                                "0x98\r", 
+                                "0x9A\r", 
+                                "0x9C\r", 
+                                "0x9E\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                "\r", 
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "75.0", 
+                            "type": "raw", 
+                            "name": "Alarm Min Temp", 
+                            "value": "75.0", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "80.0", 
+                            "type": "raw", 
+                            "name": "Alarm Max Temp", 
+                            "value": "80.0", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Comp Polarity", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 100, 
+                            "type": "int", 
+                            "name": "Scale Factor", 
+                            "value": 100, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_lm75", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "INA219", 
+                    "parameters": [
+                        {
+                            "default": "p28", 
+                            "type": "raw", 
+                            "name": "SDA Pin", 
+                            "value": "p28", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "p27", 
+                            "type": "raw", 
+                            "name": "SCL Pin", 
+                            "value": "p27", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "0x80", 
+                            "type": "raw", 
+                            "name": "I2C Address", 
+                            "value": "0x80", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "0.1", 
+                            "type": "raw", 
+                            "name": "Shunt Res", 
+                            "value": "0.1", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 3, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                            2, 
+                            3, 
+                            4
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_ina219", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Time", 
+            "blocks": [
+                {
+                    "inputs": 3, 
+                    "name": "Timer", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "Counter", 
+                    "parameters": [
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Auto reset value", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1, 
+                            2
+                        ], 
+                        "outputs": [
+                            3
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_counter", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "Clock", 
+                    "parameters": [
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "SDA", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "SCL", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Minutes", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Hours", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 2, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 0, 
+                    "name": "Ticker", 
+                    "parameters": [
+                        {
+                            "default": 1000, 
+                            "type": "int", 
+                            "name": "Interval (ms)", 
+                            "value": 1000, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": [
+                            1
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_ticker", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Math", 
+            "blocks": [
+                {
+                    "inputs": 2, 
+                    "name": "Multiply", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 2, 
+                    "name": "Add", 
+                    "parameters": [], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "LCD", 
+            "blocks": [
+                {
+                    "inputs": 1, 
+                    "name": "nGLCD", 
+                    "parameters": [
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "SDA", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "SCL", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "", 
+                            "type": "raw", 
+                            "name": "Slave Address", 
+                            "value": "", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "leading Zeros", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_nGLCD", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Constants", 
+            "blocks": [
+                {
+                    "inputs": 0, 
+                    "name": "Constant", 
+                    "parameters": [
+                        {
+                            "default": 0, 
+                            "type": "int", 
+                            "name": "Value", 
+                            "value": 0, 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": [
+                            1
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_constant", 
+                    "revision": ""
+                }
+            ]
+        }, 
+        {
+            "category": "Input", 
+            "blocks": [
+                {
+                    "inputs": 0, 
+                    "name": "GPI", 
+                    "parameters": [
+                        {
+                            "default": "P0_10", 
+                            "type": "raw", 
+                            "name": "Pin", 
+                            "value": "P0_10", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 3, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": [1,2,3]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_gpi", 
+                    "revision": ""
+                }, 
+                {
+                    "inputs": 1, 
+                    "name": "ADC", 
+                    "parameters": [
+                        {
+                            "default": "P0_10", 
+                            "type": "option", 
+                            "name": "Pin", 
+                            "value": "P0_10", 
+                            "options": [
+                                "pin_D1", 
+                                "pin_D2", 
+                                "pin_D3", 
+                                "pin_D4", 
+                                "pin_D5", 
+                                "pin_D6"
+                            ]
+                        }
+                    ], 
+                    "outputs": 1, 
+                    "labels": {
+                        "input": [
+                            "Trigger"
+                        ], 
+                        "output": [
+                            "ADC Out"
+                        ]
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_adc", 
+                    "revision": ""
+                }
+            ]
+        }
+    ], 
+    "auth": 1
+}
