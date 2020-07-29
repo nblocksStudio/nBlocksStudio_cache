@@ -371,10 +371,36 @@
                         "output": []
                     }, 
                     "schematic_pins": {
-                        "inputs": [], 
+                        "inputs": [1], 
                         "outputs": []
                     }, 
                     "repository": "https://github.com/nblocksStudio/nblocks_gpo", 
+                    "revision": ""
+                },
+                {
+                    "inputs": 1, 
+                    "name": "DAC", 
+                    "parameters": [
+                        {
+                            "default": "p18", 
+                            "type": "raw", 
+                            "name": "PinDAC", 
+                            "value": "p18", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [1], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_dac", 
                     "revision": ""
                 }
             ]
@@ -622,6 +648,32 @@
                     "repository": "https://github.com/nblocksStudio/nblocks_neopixel", 
                     "revision": ""
                 }, 
+                {
+                    "inputs": 1, 
+                    "name": "ArrayAsm2812B", 
+                    "parameters": [
+                        {
+                            "default": "P0_18", 
+                            "type": "raw", 
+                            "name": "MOSI", 
+                            "value": "P0_18", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [1], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_arrayasm2812b", 
+                    "revision": ""
+                },
                 {
                     "inputs": 3, 
                     "name": "Eeprom", 
@@ -1156,6 +1208,95 @@
                     }, 
                     "repository": "https://github.com/nblocksStudio/nblocks_nGLCD", 
                     "revision": ""
+                },
+                {
+                    "inputs": 1, 
+                    "name": "CharLCD", 
+                    "parameters": [
+                        {
+                            "default": "20", 
+                            "type": "raw", 
+                            "name": "Characters", 
+                            "value": "20", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "4", 
+                            "type": "raw", 
+                            "name": "Lines", 
+                            "value": "4", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "p15", 
+                            "type": "raw", 
+                            "name": "RS", 
+                            "value": "p15", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "p16", 
+                            "type": "raw", 
+                            "name": "E", 
+                            "value": "p16", 
+                            "options": [
+                                ""
+                            ]
+                        },
+                        {
+                            "default": "p17", 
+                            "type": "raw", 
+                            "name": "D4", 
+                            "value": "p17", 
+                            "options": [
+                                ""
+                            ]
+                        },
+                        {
+                            "default": "p18", 
+                            "type": "raw", 
+                            "name": "D5", 
+                            "value": "p18", 
+                            "options": [
+                                ""
+                            ]
+                        },
+                        {
+                            "default": "p19", 
+                            "type": "raw", 
+                            "name": "D6", 
+                            "value": "p19", 
+                            "options": [
+                                ""
+                            ]
+                        },
+                        {
+                            "default": "p20", 
+                            "type": "raw", 
+                            "name": "D7", 
+                            "value": "p20", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [1], 
+                        "outputs": []
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_charlcd", 
+                    "revision": ""
                 }
             ]
         }, 
@@ -1226,10 +1367,10 @@
                     "name": "ADC", 
                     "parameters": [
                         {
-                            "default": "P0_10", 
+                            "default": "p19", 
                             "type": "option", 
                             "name": "Pin", 
-                            "value": "P0_10", 
+                            "value": "p19", 
                             "options": [
                                 "pin_D1", 
                                 "pin_D2", 
@@ -1246,12 +1387,12 @@
                             "Trigger"
                         ], 
                         "output": [
-                            "ADC Out"
+                            "ADC_Out"
                         ]
                     }, 
                     "schematic_pins": {
-                        "inputs": [], 
-                        "outputs": []
+                        "inputs": [1], 
+                        "outputs": [2]
                     }, 
                     "repository": "https://github.com/nblocksStudio/nblocks_adc", 
                     "revision": ""
