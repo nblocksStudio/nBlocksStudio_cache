@@ -980,6 +980,62 @@
                     }, 
                     "repository": "https://github.com/nblocksStudio/nblocks_ina219", 
                     "revision": ""
+                },
+                {
+                    "inputs": 1, 
+                    "name": "LiquidLens", 
+                    "parameters": [
+                        {
+                            "default": "p28", 
+                            "type": "raw", 
+                            "name": "SDA Pin", 
+                            "value": "p28", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "p27", 
+                            "type": "raw", 
+                            "name": "SCL Pin", 
+                            "value": "p27", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "0x23", 
+                            "type": "raw", 
+                            "name": "I2C Address", 
+                            "value": "0x23", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "128", 
+                            "type": "raw", 
+                            "name": "Preset", 
+                            "value": "128", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudio/nblocks_liquidlens", 
+                    "revision": ""
                 }
             ]
         }, 
