@@ -26,7 +26,7 @@
                             ]
                         }
                     ], 
-                    "outputs": 6, 
+                    "outputs": 8, 
                     "labels": {
                         "input": [], 
                         "output": []
@@ -41,10 +41,12 @@
                             4, 
                             5,
                             6,
-                            7
+                            7,
+                            8,
+                            9
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_stcontroller", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_stcontroller", 
                     "revision": ""
                 }
             ]
@@ -69,7 +71,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_toggle", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_toggle", 
                     "revision": ""
                 }, 
                 {
@@ -85,7 +87,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_capture", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_capture", 
                     "revision": ""
                 }, 
                 {
@@ -197,7 +199,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_delaybuffer", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_delaybuffer", 
                     "revision": ""
                 }, 
                 {
@@ -245,7 +247,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_not", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_not", 
                     "revision": ""
                 }, 
                 {
@@ -265,7 +267,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_flipflop", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_flipflop", 
                     "revision": ""
                 }
             ]
@@ -318,7 +320,7 @@
                             0
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_gpout", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_gpout", 
                     "revision": ""
                 }, 
                 {
@@ -348,7 +350,7 @@
                             0
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_pwm", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_pwm", 
                     "revision": ""
                 }, 
                 {
@@ -374,7 +376,7 @@
                         "inputs": [1], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_gpo", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_gpo", 
                     "revision": ""
                 },
                 {
@@ -400,7 +402,7 @@
                         "inputs": [1], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_dac", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_dac", 
                     "revision": ""
                 }
             ]
@@ -435,7 +437,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_stringformat", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_stringformat", 
                     "revision": ""
                 }, 
                 {
@@ -462,7 +464,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_stringpack", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_stringpack", 
                     "revision": ""
                 }
             ]
@@ -506,7 +508,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_stringserial", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_stringserial", 
                     "revision": ""
                 }, 
                 {
@@ -558,7 +560,7 @@
                             3
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_generator", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_generator", 
                     "revision": ""
                 }, 
                 {
@@ -584,7 +586,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_ws2812", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_ws2812", 
                     "revision": ""
                 }, 
                 {
@@ -619,7 +621,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_pcf85063a", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_pcf85063a", 
                     "revision": ""
                 }, 
                 {
@@ -645,7 +647,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_neopixel", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_neopixel", 
                     "revision": ""
                 }, 
                 {
@@ -671,7 +673,7 @@
                         "inputs": [1], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_arrayasm2812b", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_arrayasm2812b", 
                     "revision": ""
                 },
                 {
@@ -733,7 +735,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nbslocks_eeprom", 
+                    "repository": "https://github.com/nblocksStudioNodes/nbslocks_eeprom", 
                     "revision": ""
                 }, 
                 {
@@ -772,7 +774,54 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_simpleserial", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_simpleserial", 
+                    "revision": ""
+                },
+                {
+                    "inputs": 1, 
+                    "name": "FreqPulse", 
+                    "parameters": [
+                        {
+                            "default": "P2_0", 
+                            "type": "raw", 
+                            "name": "Pin TX", 
+                            "value": "P2_0", 
+                            "options": [
+                                ""
+                            ]
+                        }, 
+                        {
+                            "default": "440", 
+                            "type": "raw", 
+                            "name": "Frequency", 
+                            "value": "440", 
+                            "options": [
+                                ""
+                            ]
+                        },
+                        {
+                            "default": "2000", 
+                            "type": "raw", 
+                            "name": "Duration", 
+                            "value": "2000", 
+                            "options": [
+                                ""
+                            ]
+                        }
+                    ], 
+                    "outputs": 0, 
+                    "labels": {
+                        "input": [], 
+                        "output": []
+                    }, 
+                    "schematic_pins": {
+                        "inputs": [
+                            1
+                        ], 
+                        "outputs": [
+                        ]
+                    }, 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_freqpulse", 
                     "revision": ""
                 }
             ]
@@ -812,7 +861,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_blink", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_blink", 
                     "revision": ""
                 }
             ]
@@ -919,7 +968,7 @@
                             2
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_lm75", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_lm75", 
                     "revision": ""
                 }, 
                 {
@@ -978,12 +1027,12 @@
                             4
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_ina219", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_ina219", 
                     "revision": ""
                 },
                 {
                     "inputs": 1, 
-                    "name": "LiquidLens", 
+                    "name": "LiquidLensHV892", 
                     "parameters": [
                         {
                             "default": "p28", 
@@ -1034,7 +1083,7 @@
                         "outputs": [
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_liquidlens", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_liquidlenshv892", 
                     "revision": ""
                 }
             ]
@@ -1086,7 +1135,7 @@
                             3
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_counter", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_counter", 
                     "revision": ""
                 }, 
                 {
@@ -1167,7 +1216,7 @@
                             1
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_ticker", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_ticker", 
                     "revision": ""
                 }
             ]
@@ -1262,7 +1311,7 @@
                         "inputs": [], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_nGLCD", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_nGLCD", 
                     "revision": ""
                 },
                 {
@@ -1351,7 +1400,7 @@
                         "inputs": [1], 
                         "outputs": []
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_charlcd", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_charlcd", 
                     "revision": ""
                 }
             ]
@@ -1384,7 +1433,7 @@
                             1
                         ]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_constant", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_constant", 
                     "revision": ""
                 }
             ]
@@ -1415,7 +1464,7 @@
                         "inputs": [], 
                         "outputs": [1,2,3]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_gpi", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_gpi", 
                     "revision": ""
                 }, 
                 {
@@ -1450,7 +1499,7 @@
                         "inputs": [1], 
                         "outputs": [2]
                     }, 
-                    "repository": "https://github.com/nblocksStudio/nblocks_adc", 
+                    "repository": "https://github.com/nblocksStudioNodes/nblocks_adc", 
                     "revision": ""
                 }
             ]
